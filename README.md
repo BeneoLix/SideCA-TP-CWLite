@@ -1,15 +1,16 @@
 # TPs XLIM Master Cryptis M2
 -------------------
 
-* November 2023.
+* First release: november 2023.
 
 ## Development Environment to Set
 
-We will use Jupyter Lab with some open sources libraries.
+We will use Jupyter Lab with some open sources libraries. 
+Feel free to use other environments like Vstudio Code.
 
 ### Requirements
 
-On aura besoin de:
+Following libraries are needed:
 
 * `python` > 3.6.
 * `Jupyter Lab`: https://jupyterlab.readthedocs.io/en/stable/
@@ -41,14 +42,14 @@ Run the following commands to install the CWLite (as described in the installati
 
 <br/>
 
-Remark: during the installation, the git clone operation on the 'Jupyter' folder fails. 
-<br/> Then clone the repo with:
+Remark: during the installation, __IF__ the git clone operation on the 'Jupyter' folder fails (it happens sometimes)
+<br/> then clone the repo with:
 * > git clone https://github.com/newaetech/chipwhisperer-jupyter.git
-and rename the folder chipwhisperer
 
+<br/> and rename the folder chipwhisperer with
 * > mv chipwhisperer-jupyter chipwhisperer
 
-Please also install the following libraries with
+#### Please also install the following libraries with
  
 * > pip install chipwhisperer
 
